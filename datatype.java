@@ -11,21 +11,18 @@ public class Solution {
         double d = 4.0;
         String s = "HackerRank ";
 		
-        Scanner scan = new Scanner(System.in); 
- /* Declare second integer, double, and String variables. */
-        int inputint = scan.nextInt();
-        /* Read and save an integer, double, and String to your variables.*/
+        Scanner scan = new Scanner(System.in);  
+        int inputint = scan.nextInt(); 
         double resd= scan.nextDouble();
         String str  ;
         while( (str = scan.nextLine()).equals("") ); 
        
-        /* Print the sum of both integer variables on a new line. */
-System.out.println(inputint+i);
-        /* Print the sum of the double variables on a new line. */
-		System.out.println(resd+resd);
-        /* Concatenate and print the String variables on a new line; 
-        	the 's' variable above should be printed first. */
-System.out.println(s+str);   
-     scan.close();
+        
+	System.out.println(inputint+i);
+        
+	System.out.println(resd+resd);
+         
+	System.out.println(s+str);   
+        scan.close();
     }
 }
